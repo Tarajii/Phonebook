@@ -27,13 +27,8 @@ Node* newNode(Node** head, FILE * ftp) {
 
 	Node* node = (Node*)malloc(sizeof(Node));
 
-	while (*head)
-		head = &head[0]->next;
-
-	*head = malloc(sizeof * *head);
-	if (!*head) abort();
 	
-	return NULL;
+	return node;
 }
 
 
